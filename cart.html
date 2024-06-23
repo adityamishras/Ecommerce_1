@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopcart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/adilogo.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/e362ff8530.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" width="125px" />
+        </div>
+        <nav>
+          <ul id="Menuitem">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Products.html">Product</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <img src="images/cart.png" alt="" width="20px" height="20px" />
+        <img
+          src="images/menu.png"
+          alt=""
+          onclick="Menuimage()"
+          id="menuimage"
+        />
+      </div>
+    </div>
+
+    <!-- Cart Details -->
+    <div class="cart_section">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart_info">
+              <img src="images/buy-1.jpg" alt="" />
+              <div class="product_info">
+                <h2>Red Printed T-Shirt</h2>
+                <button>Remove</button>
+                <h2>Rs 2000</h2>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>
+            <h2>2000</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart_info">
+              <img src="images/buy-2.jpg" alt="" />
+              <div class="product_info">
+                <h2>Adidas - All Black Shoes</h2>
+                <button>Remove</button>
+                <h2>Rs 1000</h2>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>
+            <h2>1000</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart_info">
+              <img src="images/buy-3.jpg" alt="" />
+              <div class="product_info">
+                <h2>Jocky</h2>
+                <button>Remove</button>
+                <h2>Rs 950</h2>
+              </div>
+            </div>
+          </td>
+          <td>
+            <input type="number" value="1" />
+          </td>
+          <td>
+            <h2>950</h2>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="total_price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>3950</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>4050</td>
+        </tr>
+      </table>
+    </div>
+    <div class="Proceed_sec">
+      <a class="cart_button" href="#">Continue</a>
+      <a class="cart_button" href="#">Shop More</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="footerrows">
+        <div class="footercols">
+          <h3>Download Our App</h3>
+          <p>Download Our App From PLay Store & IOS Store</p>
+          <div class="playios">
+            <img src="images/play-store.png" alt="" class="appstore" />
+            <img src="images/app-store.png" alt="" class="appstore" />
+          </div>
+        </div>
+        <div class="footercols">
+          <div class="playios">
+            <img src="images/logo-white.png" alt="" class="whitelogo" />
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="footercols">
+          <ul class="usfullinks">
+            <h3>Usful Links</h3>
+            <li class="footerlinks"><a href="">Coupans</a></li>
+            <li class="footerlinks"><a href="">Blog Post</a></li>
+            <li class="footerlinks"><a href="">Contact Us</a></li>
+            <li class="footerlinks"><a href="">Services</a></li>
+            <li class="footerlinks"><a href="">Privicy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footercols">
+          <ul class="usfullinks">
+            <h3>Social Media</h3>
+            <li class="footerlinks"><a href="">Facebook</a></li>
+            <li class="footerlinks"><a href="">Instagram</a></li>
+            <li class="footerlinks"><a href="">Twitter</a></li>
+            <li class="footerlinks"><a href="">Josh Talks</a></li>
+            <li class="footerlinks"><a href="">Dailyhunt</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyrightsec">
+        <p>
+          &copy; Design & Developed By Aditya Mishra
+          <img
+            class="adityabrandlogo"
+            src="images/adilogo.png"
+            alt="brandlogo"
+          />
+        </p>
+      </div>
+    </div>
+    <script>
+      var Menuitem = document.getElementById("Menuitem");
+      Menuitem.style.maxHeight = "0px";
+      function Menuimage() {
+        if (Menuitem.style.maxHeight == "0px") {
+          Menuitem.style.maxHeight = "400px";
+        } else {
+          Menuitem.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

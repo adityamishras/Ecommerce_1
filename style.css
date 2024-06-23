@@ -521,3 +521,139 @@ form .TandC p {
     width: 295px;
   }
 }
+
+/*   Cart Page  */
+.cart_section {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+table {
+  flex-basis: 60%;
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart_info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+.cart_info img {
+  height: 100px;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #ff523b;
+  font-weight: normal;
+}
+td {
+  margin: 0 30px;
+}
+td input {
+  height: 26px;
+  width: 40px;
+  font-size: 15px;
+  padding: 0 0 0 10px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: none;
+  color: #000;
+  border-radius: 0;
+  background-color: #fff;
+  border: 1px solid black;
+}
+.product_info {
+  padding: 0 10px;
+}
+.product_info h2 {
+  font-size: 15px;
+  margin: 5px 0;
+  font-weight: 500;
+}
+td button {
+  padding: 5px;
+  color: #000;
+}
+.total_price {
+  display: flex;
+  justify-content: center;
+}
+.total_price table {
+  width: 100%;
+  border-top: 3px solid #ff523b;
+  max-width: 750px;
+  text-align: left;
+}
+.total_price table tr td {
+  padding: 3px 0;
+  font-size: 20px;
+}
+.Proceed_sec {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+.Proceed_sec .cart_button {
+  margin: 0 0 0 10px;
+  background: #252525;
+  color: #fff;
+  padding: 10px;
+}
+@media (max-width: 750px) {
+  .product_info h2 {
+    display: none;
+  }
+
+  td button {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #ff523b;
+    margin: 12px 0;
+    border: none;
+    border-radius: 3px;
+  }
+  td input {
+    height: 25px;
+    width: 35px;
+    font-size: 13px;
+  }
+  .cart_info img {
+    height: 180px;
+  }
+  .cart_section table tr td {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 334px) {
+  .product_info h2 {
+    display: none;
+  }
+
+  td button {
+    padding: 5px;
+    color: #ffffff;
+    background-color: #ff523b;
+    margin: 6px 0;
+    border: none;
+    border-radius: 3px;
+  }
+  td input {
+    height: 20px;
+    width: 30px;
+    font-size: 12px;
+  }
+  .cart_info img {
+    height: 100px;
+  }
+  .cart_section table tr td {
+    padding: 0 8px;
+    font-size: 15px;
+  }
+  .total_price table tr td {
+    padding: 3px 0;
+    font-size: 16px;
+  }
+}
