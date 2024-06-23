@@ -441,7 +441,19 @@ form .TandC p {
     height: 150px;
   }
 }
-
+@media (max-width: 280px) {
+  form {
+    padding: 17px;
+  }
+  input {
+    height: 34px;
+    font-size: 15px;
+  }
+  .appstore {
+    width: 91px;
+    padding-top: 0px;
+  }
+}
 /* Single Product Details */
 
 .single_product_container .row .col {
