@@ -71,4 +71,4 @@ An e-commerce website built with HTML, CSS, and JavaScript. This project is desi
 ```
 ## output
 
-![Video](https://github.com/adityamishras/Ecommerce_1/assets/136791974/60b329b6-1c2e-4f1f-a270-27a9606916a4)
+https://github.com/adityamishras/Ecommerce_1/assets/136791974/60b329b6-1c2e-4f1f-a270-27a9606916a4
