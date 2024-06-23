@@ -298,7 +298,7 @@ p {
     margin: 20px 0;
   }
   .footerrows {
-    padding: 70px;
+    padding: 20px;
     text-align: center;
   }
   .whitelogo {
@@ -397,8 +397,9 @@ form h1 {
   color: #fff;
 }
 input {
-  height: 25px;
-  padding-left: 10px;
+  height: 42px;
+  font-size: 18px;
+  padding: 0 0 0 10px;
   border-radius: 4px;
   transition: 0.5s;
   border: none;
@@ -431,20 +432,18 @@ form .TandC p {
 }
 @media (max-width: 785px) {
   form {
-    margin: 49px 30px;
+    margin: 53px 15px;
     width: fit-content;
     padding: 30px;
   }
   .col img {
-    width: 379px;
-    height: 225px;
+    width: 200px;
+    height: 150px;
   }
 }
 
 /* Single Product Details */
-.single_product_container {
-  /* background: red; */
-}
+
 .single_product_container .row .col {
   flex-basis: 50%;
 }
