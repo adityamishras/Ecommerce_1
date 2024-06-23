@@ -44,40 +44,6 @@ An e-commerce website built with HTML, CSS, and JavaScript. This project is desi
         </ul>
       </div>
     </div>
-    <div class="col">
-      <h1>Red Printed T-Shirts</h1>
-      <h2>Rs- 2000</h2>
-      <select name="" id="select">
-        <option value="">Select Size</option>
-        <option value="">Small</option>
-        <option value="">Medium</option>
-        <option value="">Large</option>
-        <option value="">Xl</option>
-        <option value="">XXl</option>
-      </select>
-      <input id="smallcontainer_input" type="number" value="1" />
-      <div class="product_details">
-        <h2>Description</h2>
-        <p>
-          Elevate your casual wardrobe with our Red Printed Cotton T-Shirt.
-          Designed for comfort and style, this t-shirt features a vibrant red
-          color with a striking printed design that sets you apart from the
-          crowd. Perfect for everyday wear, it combines a modern aesthetic with
-          a soft, breathable fabric to keep you comfortable all day long.
-        </p>
-        <ul>
-          <h2><b>Features:</b></h2>
-          <li><b>Color:</b> Red</li>
-          <li><b>Design: </b>Unique printed graphic on the front</li>
-          <li><b>Neckline:</b> Crew neck</li>
-          <li><b>Fit:</b> Regular fit</li>
-          <li><b>Hemline:</b> Straight hem</li>
-          <li><b>Material:</b> 100% Cotton Care Instructions: Machine</li>
-          <li>wash cold,</li>
-          <li>tumble dry low</li>
-        </ul>
-      </div>
-    </div>
   </div>
 </div>
 ```
@@ -103,3 +69,6 @@ An e-commerce website built with HTML, CSS, and JavaScript. This project is desi
       };
     </script>
 ```
+## output
+
+![Video](https://github.com/adityamishras/Ecommerce_1/assets/136791974/60b329b6-1c2e-4f1f-a270-27a9606916a4)
