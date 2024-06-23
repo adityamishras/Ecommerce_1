@@ -2,16 +2,6 @@
 
 An e-commerce website built with HTML, CSS, and JavaScript. This project is designed to provide a simple and effective online shopping experience.
 
-## Table of Contents
-
-- [Features](#features)
-- [Demo](#demo)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## links
 
 - [Visit here](https://adityamishras.github.io/Ecommerce_1)
@@ -19,6 +9,8 @@ An e-commerce website built with HTML, CSS, and JavaScript. This project is desi
 ## Screenshots
 
 ![screenshots_1](https://github.com/adityamishras/Ecommerce_1/assets/136791974/f2519b5c-d7bb-4778-b2c7-b8378200b235)
+![Screenshot_2](https://github.com/adityamishras/Ecommerce_1/assets/136791974/3c34842a-bc04-44f2-b270-fc9cfb2bf9ed)
+![Screenshot_1](https://github.com/adityamishras/Ecommerce_1/assets/136791974/5def3291-41ee-4abf-80f5-9eb83a033e73)
 
 ## HTML
 
