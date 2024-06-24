@@ -602,6 +602,10 @@ td button {
   padding: 10px;
 }
 @media (max-width: 750px) {
+  table {
+    flex-basis: 100%;
+    margin: 0 10px;
+  }
   .product_info h2 {
     display: none;
   }
@@ -619,6 +623,9 @@ td button {
     width: 35px;
     font-size: 13px;
   }
+  td h2 {
+    font-size: 19px;
+  }
   .cart_info img {
     height: 180px;
   }
@@ -628,6 +635,13 @@ td button {
 }
 
 @media (max-width: 334px) {
+  table {
+    flex-basis: 100%;
+    margin: 0 20px;
+  }
+  td h2 {
+    font-size: 15px;
+  }
   .product_info h2 {
     display: none;
   }
@@ -646,7 +660,7 @@ td button {
     font-size: 12px;
   }
   .cart_info img {
-    height: 100px;
+    height: 72px;
   }
   .cart_section table tr td {
     padding: 0 8px;
