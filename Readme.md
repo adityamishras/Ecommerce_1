@@ -4,7 +4,7 @@ An e-commerce website built with HTML, CSS, and JavaScript. This project is desi
 
 ## links
 
-- [Visit here](https://adityamishras.github.io/Ecommerce_1)
+- [Visit here](https://adityamishras.github.io/RedStore/)
 
 ## Screenshots
 
